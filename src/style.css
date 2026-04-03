@@ -399,7 +399,7 @@ img {
 /* ===== 6. FUNDRAISING ===== */
 .fundraise-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 14px;
 }
 
@@ -409,8 +409,21 @@ img {
   border-radius: 12px;
   padding: 28px 24px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   transition: border-color 0.4s ease, transform 0.3s ease, box-shadow 0.4s ease;
   backdrop-filter: blur(8px);
+}
+
+.fundraise-card a {
+  display: block;
+  margin-top: auto;
+  padding-top: 10px;
+  font-size: 11px;
+  color: #00E5CC;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .fundraise-card:hover {
@@ -793,6 +806,10 @@ img {
 
   .stat-card {
     padding: 18px 12px;
+  }
+
+  .fundraise-grid {
+    grid-template-columns: 1fr;
   }
 
   .fundraise-price {
