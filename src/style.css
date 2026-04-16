@@ -144,6 +144,15 @@ img {
   position: relative;
 }
 
+.section-heading {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--section-label);
+  margin-bottom: 16px;
+}
+
 .section-label {
   font-size: 11px;
   font-weight: 700;
