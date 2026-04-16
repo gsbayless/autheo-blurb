@@ -355,6 +355,23 @@ img {
   z-index: 0;
 }
 
+#key-points .mid-bg {
+  opacity: 0.35;
+}
+
+#product-market .mid-bg {
+  opacity: 0.25;
+  background-position: right center;
+}
+
+#investment-case .mid-bg {
+  opacity: 0.2;
+}
+
+#intro .mid-bg {
+  opacity: 0.2;
+}
+
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -856,4 +873,89 @@ img {
   .cta-headline {
     font-size: 17px;
   }
+}
+
+/* ===== DESIGN ACCENTS ===== */
+.gold { color: #F5A623; }
+.teal { color: #00E5CC; }
+.white-bold { color: #FFFFFF; font-weight: 700; }
+
+.section-divider {
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(90deg, #F5A623, #00E5CC);
+  margin: 32px 0;
+  border-radius: 2px;
+}
+
+/* Callout box for key stats */
+.callout-box {
+  border: 1px solid rgba(245, 166, 35, 0.3);
+  border-left: 3px solid #F5A623;
+  background: rgba(245, 166, 35, 0.04);
+  border-radius: 0 10px 10px 0;
+  padding: 20px 24px;
+  margin: 20px 0;
+}
+
+.callout-box .callout-number {
+  font-size: 28px;
+  font-weight: 900;
+  color: #F5A623;
+  margin-bottom: 4px;
+}
+
+.callout-box .callout-label {
+  font-size: 14px;
+  color: var(--body-text);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+/* Market size cards */
+.market-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin: 20px 0;
+}
+
+.market-card {
+  background: rgba(0, 229, 204, 0.04);
+  border: 1px solid rgba(0, 229, 204, 0.15);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.market-card .market-number {
+  font-size: 26px;
+  font-weight: 900;
+  color: #00E5CC;
+  margin-bottom: 6px;
+}
+
+.market-card .market-label {
+  font-size: 13px;
+  color: var(--body-text);
+  line-height: 1.5;
+}
+
+/* Highlight strip for key phrase */
+.highlight-strip {
+  background: linear-gradient(90deg, rgba(245, 166, 35, 0.08), rgba(0, 229, 204, 0.08));
+  border-radius: 8px;
+  padding: 16px 24px;
+  margin: 20px 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .market-cards { grid-template-columns: 1fr; }
 }
