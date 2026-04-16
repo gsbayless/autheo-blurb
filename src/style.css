@@ -145,7 +145,16 @@ img {
 }
 
 .section-heading {
-  font-size: 13px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--section-label);
+  margin-bottom: 18px;
+}
+
+.section-label {
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -153,20 +162,11 @@ img {
   margin-bottom: 14px;
 }
 
-.section-label {
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: var(--section-label);
-  margin-bottom: 12px;
-}
-
 .body-text {
-  font-size: 13px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.7;
   color: var(--body-text);
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .body-text:last-child {
@@ -320,9 +320,9 @@ img {
 
 .key-points-list li {
   position: relative;
-  padding-left: 20px;
-  margin-bottom: 12px;
-  font-size: 13px;
+  padding-left: 22px;
+  margin-bottom: 14px;
+  font-size: 16px;
   line-height: 1.7;
   color: var(--body-text);
 }
@@ -398,7 +398,7 @@ img {
 }
 
 .stat-label {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -430,7 +430,7 @@ img {
   display: block;
   margin-top: auto;
   padding-top: 10px;
-  font-size: 11px;
+  font-size: 14px;
   color: #00E5CC;
   text-decoration: none;
   font-weight: 600;
@@ -443,7 +443,7 @@ img {
 }
 
 .fundraise-type {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -465,7 +465,7 @@ img {
 }
 
 .fundraise-detail {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--body-text);
   opacity: 0.6;
 }
@@ -515,7 +515,7 @@ img {
   padding: 24px 28px;
   background: rgba(0, 229, 204, 0.025);
   border-radius: 0 12px 12px 0;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.8;
   color: var(--body-text);
   font-style: italic;
@@ -658,7 +658,7 @@ img {
 }
 
 .resource-heading {
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -668,7 +668,7 @@ img {
 }
 
 .resource-col a {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.6;
   color: var(--teal);
   transition: color 0.3s ease, transform 0.2s ease;
