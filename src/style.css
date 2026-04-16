@@ -145,12 +145,12 @@ img {
 }
 
 .section-heading {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 4px;
   color: var(--section-label);
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .section-label {
@@ -315,6 +315,7 @@ img {
 .key-points-list {
   list-style: none;
   padding: 0;
+  margin-left: 12px;
 }
 
 .key-points-list li {
