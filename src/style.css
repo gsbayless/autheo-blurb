@@ -300,6 +300,28 @@ img {
   color: var(--teal);
 }
 
+.hero-deck-link {
+  margin-top: 24px;
+  opacity: 0;
+  animation: fadeSlideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 1.4s forwards;
+}
+
+.hero-deck-link a {
+  font-size: 14px;
+  color: #F5A623;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  text-shadow: 0 0 8px rgba(245, 166, 35, 0.2);
+}
+
+.hero-deck-link a:hover {
+  color: #FFD080;
+  text-shadow: 0 0 16px rgba(245, 166, 35, 0.5);
+}
+
 @keyframes fadeSlideUp {
   from {
     opacity: 0;
@@ -464,7 +486,7 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  color: var(--teal);
+  color: #F5A623;
   margin-bottom: 10px;
 }
 
@@ -958,4 +980,27 @@ img {
 
 @media (max-width: 600px) {
   .market-cards { grid-template-columns: 1fr; }
+}
+
+/* ===== INLINE SECTION IMAGES ===== */
+.section-image {
+  width: 100%;
+  max-width: 800px;
+  margin: 32px auto;
+  display: block;
+  border-radius: 12px;
+  opacity: 0.85;
+  box-shadow: 0 4px 32px rgba(0, 229, 204, 0.08);
+  transition: opacity 0.3s ease;
+}
+
+.section-image:hover {
+  opacity: 1;
+}
+
+.section-image-full {
+  width: 100%;
+  margin: 24px 0;
+  border-radius: 8px;
+  opacity: 0.8;
 }
